@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "jupyter-venv"
+version = "0.1.0"
+description = ""
+authors = ["Tsvika <tsvika@>"]
+
+[tool.poetry.dependencies]
+python = "~3.11"
+hvplot = "^0.8"
+icecream = "^2"
+joblib = "^1"
+jupyterlab = "^4"
+jupytext = "^1"
+matplotlib = "^3"
+more-itertools = "^9"
+networkx = "^3"
+pandas = "^2"
+pillow = "^9"
+scipy = "^1"
+scikit-image = "^0.21"
+scikit-learn = "^1"
+seaborn = "^0.12"
+statsmodels = "^0.14"
+tqdm = "^4"
+xarray = "^2023"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
