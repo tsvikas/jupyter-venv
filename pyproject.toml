@@ -19,6 +19,7 @@ scikit-learn = "^1"
 jupyter-collaboration = "^1"
 jupyterlab = "^4"
 jupytext = "^1"
+xeus-python = "^0.15.8"
 # jupyter export
 pandoc = "^2.3"
 # visualization
