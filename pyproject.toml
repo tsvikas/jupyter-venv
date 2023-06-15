@@ -23,6 +23,7 @@ seaborn = "^0.12"
 statsmodels = "^0.14"
 tqdm = "^4"
 xarray = "^2023"
+jupyter-collaboration = "^1.0.0"
 
 
 [build-system]
