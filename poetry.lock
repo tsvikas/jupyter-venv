@@ -4073,6 +4073,58 @@ parallel = ["dask[complete]"]
 viz = ["matplotlib", "nc-time-axis", "seaborn"]
 
 [[package]]
+name = "xeus-python"
+version = "0.15.8"
+description = "A wheel for xeus-python"
+optional = false
+python-versions = "*"
+files = [
+    {file = "xeus_python-0.15.8-cp310-cp310-macosx_11_0_arm64.whl", hash = "sha256:72aa332a4c19946b8a3a2aadf980d45de189df6dd8ab11ae39e7b6f50061f1bd"},
+    {file = "xeus_python-0.15.8-cp310-cp310-macosx_11_0_x86_64.whl", hash = "sha256:6a4954562afbfca5ba631a4677e8285fae732ea0193ea9c913ac39e9b9e1a227"},
+    {file = "xeus_python-0.15.8-cp310-cp310-manylinux_2_24_x86_64.whl", hash = "sha256:751fb972d361ec06a8144dd4c9ef1e6b581eda7e88b6a073d70ebbe350c63ee5"},
+    {file = "xeus_python-0.15.8-cp310-cp310-win_amd64.whl", hash = "sha256:ab73ad2c3126d4e155f01d09f179b23cecaaec9e6aa9d9f4f6b2250de08c5a06"},
+    {file = "xeus_python-0.15.8-cp311-cp311-macosx_11_0_arm64.whl", hash = "sha256:210cda8eb73a14129e2dbed24cf8d99b004ed090e929285311ce3442a91ddb3c"},
+    {file = "xeus_python-0.15.8-cp311-cp311-macosx_11_0_x86_64.whl", hash = "sha256:acc8a4b0a3b9fe31b70412a701e25bfeb2231598fdbf1a32219313a2ce22d2f5"},
+    {file = "xeus_python-0.15.8-cp311-cp311-manylinux_2_24_x86_64.whl", hash = "sha256:9b3e8a6d2bea7fe8a0e82455a0807b1e0b4871c74d3c38d8f0cc53b00707e883"},
+    {file = "xeus_python-0.15.8-cp311-cp311-win_amd64.whl", hash = "sha256:463848ec12ba89f54a410c6ff1e95a91edb8b758c1290ab9249711a99e59ae5f"},
+    {file = "xeus_python-0.15.8-cp37-cp37m-macosx_10_16_x86_64.whl", hash = "sha256:b116322d5de7e456ab905d6b674626581e6b46f8bcd758542c04f14346f21883"},
+    {file = "xeus_python-0.15.8-cp37-cp37m-macosx_11_0_arm64.whl", hash = "sha256:03e07cb6878630a51a78729691c661d16471a1934e7c42546c4552a365e09abb"},
+    {file = "xeus_python-0.15.8-cp37-cp37m-manylinux_2_24_x86_64.whl", hash = "sha256:07a3ce65fa4ed553732925f2d9d31150078039c84a3720ebf39d4ecce53a6f29"},
+    {file = "xeus_python-0.15.8-cp37-cp37m-win_amd64.whl", hash = "sha256:38addcd2df37349d44fe8cf16f1e11e3d96772a5e93611f8d8d6f7a065c27f84"},
+    {file = "xeus_python-0.15.8-cp38-cp38-macosx_10_16_x86_64.whl", hash = "sha256:1f06a5c8087f50f27052dccb6edb100cfee0753d327564680b352a3b0434ab44"},
+    {file = "xeus_python-0.15.8-cp38-cp38-macosx_11_0_arm64.whl", hash = "sha256:41e00f0114bf21db38e76c64df042820f9d2f83403d6adce7d5b70b4d0b52fb8"},
+    {file = "xeus_python-0.15.8-cp38-cp38-manylinux_2_24_x86_64.whl", hash = "sha256:22c218d515d1f8e05f82660bae98b2845d218c77bf69ce64f9015204d212d2c6"},
+    {file = "xeus_python-0.15.8-cp38-cp38-win_amd64.whl", hash = "sha256:1165484ffe56009e1a9f5749ac83f8827a880b4b2cbc99a2ba7ac92bf26ff33f"},
+    {file = "xeus_python-0.15.8-cp39-cp39-macosx_11_0_arm64.whl", hash = "sha256:aee7a43a4472f40dd7d1ba8ff11e9606e4d69310ad5339cb0c8dcb2a713fd4f2"},
+    {file = "xeus_python-0.15.8-cp39-cp39-macosx_11_0_x86_64.whl", hash = "sha256:8a69b06e47ca21dd47e6b7bf16c0e90d9fde748bafca7504cec9f9c00137d061"},
+    {file = "xeus_python-0.15.8-cp39-cp39-manylinux_2_24_x86_64.whl", hash = "sha256:109a40f9ece6f7cc7d921544322854b2c77a6806300008de074bdcfd0c25d4a2"},
+    {file = "xeus_python-0.15.8-cp39-cp39-win_amd64.whl", hash = "sha256:4f8ac72dba35e3dd04777c07921a96e96568d67ca3014a832ef23b16c72188dd"},
+]
+
+[package.dependencies]
+pygments = ">=2.3.1,<3"
+xeus-python-shell = {version = ">=0.5,<0.6", extras = ["ipython"]}
+
+[[package]]
+name = "xeus-python-shell"
+version = "0.5.0"
+description = "The xeus-python core python logic."
+optional = false
+python-versions = ">=3.6"
+files = [
+    {file = "xeus-python-shell-0.5.0.tar.gz", hash = "sha256:848942cec059533d7557c63465b3190618ba3ccd2ecc7f083a4368a20e3d28ef"},
+    {file = "xeus_python_shell-0.5.0-py3-none-any.whl", hash = "sha256:1bca422a62be035f7ef44192ef0967b1e461e03fa8c090b09e71fb65bcf829ea"},
+]
+
+[package.dependencies]
+debugpy = ">=1.1.0,<2"
+ipython = {version = ">=7.21,<9", optional = true, markers = "extra == \"ipython\""}
+
+[package.extras]
+ipython = ["ipython (>=7.21,<9)"]
+wasm = ["pyjs"]
+
+[[package]]
 name = "xlrd"
 version = "2.0.1"
 description = "Library for developers to extract data from Microsoft Excel (tm) .xls spreadsheet files"
@@ -4222,4 +4274,4 @@ testing = ["big-O", "flake8 (<5)", "jaraco.functools", "jaraco.itertools", "more
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.11"
-content-hash = "afde741114fe36c773b4cc2c9f34e1d94e7dad96d9fc992bfae4f9302bf7999d"
+content-hash = "209b0acdfd2fd50481efc838813b4d4e10c820052946bf4b88e8bbe5eaf0d3ee"
