@@ -35,6 +35,7 @@ tqdm = "^4"
 # online
 requests = "^2.31.0"
 pooch = "^1.7.0"
+openai = "^0.27.8"
 
 
 [tool.poetry.group.lsp.dependencies]
