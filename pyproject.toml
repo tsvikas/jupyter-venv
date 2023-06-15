@@ -26,6 +26,11 @@ xarray = "^2023"
 jupyter-collaboration = "^1.0.0"
 
 
+[tool.poetry.group.lsp.dependencies]
+pyright = "^1.1.314"
+python-language-server = "^0.36.2"
+python-lsp-server = "^1.7.3"
+
 [build-system]
 requires = ["poetry-core"]
 build-backend = "poetry.core.masonry.api"
