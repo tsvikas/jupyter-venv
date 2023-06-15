@@ -25,6 +25,7 @@ pandoc = "^2.3"
 hvplot = "^0.8"
 matplotlib = "^3"
 seaborn = "^0.12"
+datashader = "^0.15.0"
 # tools
 joblib = "^1"
 icecream = "^2"
