@@ -9,44 +9,44 @@ python = "~3.11"
 #scientific stack
 pandas = {extras = ["clipboard", "computation", "excel", "html", "output-formatting", "performance", "plot", "xml"], version = "^2"}
 scipy = "^1"
-xarray = "^2023"
-statsmodels = "^0.14"
-networkx = "^3"
-pillow = "^9"
-scikit-image = "^0.21"
-scikit-learn = "^1"
+xarray = "*"
+statsmodels = "*"
+networkx = "*"
+pillow = "*"
+scikit-image = "*"
+scikit-learn = "*"
 # jupyter
 jupyter-collaboration = "^1"
 jupyterlab = "^4"
 jupytext = "^1"
-xeus-python = "^0.15.8"
+xeus-python = "*"
 # jupyter export
-pandoc = "^2.3"
+pandoc = "*"
 # visualization
-hvplot = "^0.8"
+hvplot = "*"
 matplotlib = "^3"
-seaborn = "^0.12"
-datashader = "^0.15.0"
+seaborn = "*"
+datashader = "*"
 # interactive visualization
-ipywidgets = "^8.0.6"
+ipywidgets = "*"
 # tools
-joblib = "^1"
-icecream = "^2"
-more-itertools = "^9"
-tqdm = "^4"
+joblib = "*"
+icecream = "*"
+more-itertools = "*"
+tqdm = "*"
 # online
-requests = "^2.31.0"
-pooch = "^1.7.0"
-openai = "^0.27.8"
+requests = "*"
+pooch = "*"
+openai = "*"
 # scraping
-parsel = "^1.8.1"
-numpy = "^1.24"
+parsel = "*"
+numpy = "^1"
 
 
 [tool.poetry.group.lsp.dependencies]
-pyright = "^1.1.314"
-python-language-server = "^0.36.2"
-python-lsp-server = "^1.7.3"
+pyright = "*"
+python-language-server = "*"
+python-lsp-server = "*"
 
 [build-system]
 requires = ["poetry-core"]
