@@ -42,6 +42,7 @@ openai = "*"
 # scraping
 parsel = "*"
 # more
+einops = "*"
 
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
