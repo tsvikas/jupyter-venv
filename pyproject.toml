@@ -16,6 +16,7 @@ networkx = "*"
 pillow = "*"
 scikit-image = "*"
 scikit-learn = "*"
+einops = "*"
 # jupyter
 jupyter-collaboration = "^1"
 jupyterlab = "^4"
