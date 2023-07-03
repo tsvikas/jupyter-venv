@@ -40,8 +40,8 @@ pooch = "*"
 openai = "*"
 # scraping
 parsel = "*"
+# more
 numpy = "^1"
-
 
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
