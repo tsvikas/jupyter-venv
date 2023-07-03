@@ -7,6 +7,7 @@ authors = ["Tsvika <tsvika@>"]
 [tool.poetry.dependencies]
 python = "~3.11"
 #scientific stack
+numpy = "^1"
 pandas = {extras = ["clipboard", "computation", "excel", "html", "output-formatting", "performance", "plot", "xml"], version = "^2"}
 scipy = "^1"
 xarray = "*"
@@ -23,8 +24,8 @@ xeus-python = "*"
 # jupyter export
 pandoc = "*"
 # visualization
-hvplot = "*"
 matplotlib = "^3"
+hvplot = "*"
 seaborn = "*"
 datashader = "*"
 # interactive visualization
@@ -41,7 +42,6 @@ openai = "*"
 # scraping
 parsel = "*"
 # more
-numpy = "^1"
 
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
