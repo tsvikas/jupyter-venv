@@ -1,4 +1,5 @@
 #!/usr/bin/fish
-rm -r .venv
-python3.11 -m venv .venv
-./req_sync
+set JUPYTER_DIR "~/jupyter-venv"
+rm -r $JUPYTER_DIR/.venv
+python3.11 -m venv $JUPYTER_DIR/.venv
+$JUPYTER_DIR/req_sync
