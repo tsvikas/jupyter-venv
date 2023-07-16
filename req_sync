@@ -1,0 +1,3 @@
+#!/usr/bin/fish
+poetry export > requirements.txt
+and .venv/bin/pip install -r requirements.txt

@@ -1,0 +1,4 @@
+#!/usr/bin/fish
+rm -r .venv
+python3.11 -m venv .venv
+./req_sync
