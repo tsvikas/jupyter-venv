@@ -1,0 +1,2 @@
+#!/usr/bin/fish
+~/jupyter-venv/.venv/bin/jupyter lab --notebook-dir ~
