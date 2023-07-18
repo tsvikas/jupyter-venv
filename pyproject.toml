@@ -46,8 +46,9 @@ einops = "*"
 
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
-python-language-server = "*"
 python-lsp-server = "*"
+# outdated:
+# python-language-server = "*"
 
 [build-system]
 requires = ["poetry-core"]

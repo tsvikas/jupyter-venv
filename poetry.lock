@@ -1123,16 +1123,6 @@ ssh = ["paramiko"]
 tqdm = ["tqdm"]
 
 [[package]]
-name = "future"
-version = "0.18.3"
-description = "Clean single-source support for Python 3 and 2"
-optional = false
-python-versions = ">=2.6, !=3.0.*, !=3.1.*, !=3.2.*"
-files = [
-    {file = "future-0.18.3.tar.gz", hash = "sha256:34a17436ed1e96697a86f9de3d15a3b0be01d8bc8de9c1dffd59fb8234ed5307"},
-]
-
-[[package]]
 name = "holoviews"
 version = "1.16.2"
 description = "Stop plotting your data - annotate your data and let it visualize itself."
@@ -3380,51 +3370,6 @@ files = [
 ]
 
 [[package]]
-name = "python-jsonrpc-server"
-version = "0.4.0"
-description = "JSON RPC 2.0 server library"
-optional = false
-python-versions = "*"
-files = [
-    {file = "python-jsonrpc-server-0.4.0.tar.gz", hash = "sha256:62c543e541f101ec5b57dc654efc212d2c2e3ea47ff6f54b2e7dcb36ecf20595"},
-    {file = "python_jsonrpc_server-0.4.0-py3-none-any.whl", hash = "sha256:e5a908ff182e620aac07db5f57887eeb0afe33993008f57dc1b85b594cea250c"},
-]
-
-[package.dependencies]
-ujson = ">=3.0.0"
-
-[package.extras]
-test = ["coverage", "mock", "pycodestyle", "pyflakes", "pylint", "pytest", "pytest-cov", "versioneer"]
-
-[[package]]
-name = "python-language-server"
-version = "0.26.1"
-description = "Python Language Server for the Language Server Protocol"
-optional = false
-python-versions = "*"
-files = [
-    {file = "python-language-server-0.26.1.tar.gz", hash = "sha256:1a746a4031938df03ee546fa4760895b6a6e420a07d58161b064945add6449ef"},
-]
-
-[package.dependencies]
-future = ">=0.14.0"
-jedi = ">=0.13.2"
-pluggy = "*"
-python-jsonrpc-server = ">=0.1.0"
-
-[package.extras]
-all = ["autopep8", "mccabe", "pycodestyle", "pydocstyle (>=2.0.0)", "pyflakes (>=1.6.0)", "pylint", "rope (>=0.10.5)", "yapf"]
-autopep8 = ["autopep8"]
-mccabe = ["mccabe"]
-pycodestyle = ["pycodestyle"]
-pydocstyle = ["pydocstyle (>=2.0.0)"]
-pyflakes = ["pyflakes (>=1.6.0)"]
-pylint = ["pylint"]
-rope = ["rope (>0.10.5)"]
-test = ["coverage", "mock", "pylint", "pytest", "pytest-cov", "versioneer"]
-yapf = ["yapf"]
-
-[[package]]
 name = "python-lsp-jsonrpc"
 version = "1.0.0"
 description = "JSON RPC 2.0 server library"
@@ -4869,4 +4814,4 @@ testing = ["big-O", "jaraco.functools", "jaraco.itertools", "more-itertools", "p
 [metadata]
 lock-version = "2.0"
 python-versions = "~3.11"
-content-hash = "a39ca504ebf7f5eb4e8e90d4eec9bc93bd4d6b6b4ba57a61203fe0c1baa0511c"
+content-hash = "553aff281c58f05c0ad20915a0df267f80374cf7cd123e4addc5b36f19090dc8"
