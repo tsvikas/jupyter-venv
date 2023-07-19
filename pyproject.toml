@@ -8,7 +8,7 @@ authors = ["Tsvika <tsvika@>"]
 python = "~3.11"
 #scientific stack
 numpy = "^1"
-pandas = {extras = ["clipboard", "computation", "excel", "html", "output-formatting", "performance", "plot", "xml"], version = "^2"}
+pandas = {extras = ["clipboard", "computation", "excel", "html", "output_formatting", "performance", "plot", "xml"], version = "^2"}
 scipy = "^1"
 xarray = "*"
 statsmodels = "*"
