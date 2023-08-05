@@ -18,10 +18,11 @@ scikit-image = "*"
 scikit-learn = "*"
 einops = "*"
 # jupyter
-jupyter-collaboration = "^1"
 jupyterlab = "^4"
 jupytext = "^1"
 xeus-python = "*"
+# disabled because eit need to mature:
+# jupyter-collaboration = "^1"
 # jupyter export
 pandoc = "*"
 # visualization
