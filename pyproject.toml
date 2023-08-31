@@ -16,6 +16,7 @@ networkx = "*"
 pillow = "*"
 scikit-image = "*"
 scikit-learn = "*"
+pyarrow = ">=13"
 einops = "*"
 # jupyter
 jupyterlab = "^4"
