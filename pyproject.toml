@@ -44,6 +44,7 @@ openai = "*"
 parsel = "*"
 # more
 einops = "*"
+pyarrow = "^13.0.0"
 
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
