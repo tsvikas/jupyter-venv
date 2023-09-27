@@ -22,8 +22,7 @@ einops = "*"
 jupyterlab = "^4"
 jupytext = "^1"
 xeus-python = "*"
-# disabled because eit need to mature:
-# jupyter-collaboration = "^1"
+# jupyter-collaboration = "^1"  # need to mature
 # jupyter export
 pandoc = "*"
 # visualization
