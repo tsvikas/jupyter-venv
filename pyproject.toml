@@ -45,6 +45,7 @@ openai = "*"
 parsel = "*"
 phonenumbers = "*"
 # more
+pyqt5-qt5 = "5.15.2"  # temporary because some issue with newest version
 
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
