@@ -43,6 +43,7 @@ pooch = "*"
 openai = "*"
 # scraping
 parsel = "*"
+phonenumbers = "*"
 # more
 
 [tool.poetry.group.lsp.dependencies]
