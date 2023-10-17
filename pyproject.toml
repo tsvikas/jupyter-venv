@@ -16,6 +16,8 @@ networkx = "*"
 pillow = "*"
 scikit-image = "*"
 scikit-learn = "*"
+pyarrow = ">=13"
+einops = "*"
 # jupyter
 jupyterlab = "^4"
 jupytext = "^1"
@@ -41,10 +43,9 @@ pooch = "*"
 openai = "*"
 # scraping
 parsel = "*"
+phonenumbers = "*"
 # more
-einops = "*"
-pyarrow = "^13.0.0"
-phonenumbers = "^8.13.22"
+pyqt5-qt5 = "5.15.2"  # temporary because some issue with newest version
 
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
