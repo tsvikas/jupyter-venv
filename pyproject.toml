@@ -45,7 +45,7 @@ openai = "*"
 parsel = "*"
 phonenumbers = "*"
 # more
-pyqt5-qt5 = "!=5.15.11"  # install issue with this version
+pyqt5-qt5 = "!=5.15.11,!=5.15.12"  # install issue with this version
 
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
