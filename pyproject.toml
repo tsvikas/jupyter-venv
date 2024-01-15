@@ -49,6 +49,7 @@ pyqt5-qt5 = "!=5.15.11,!=5.15.12"  # install issue with those versions
 
 [tool.poetry.group.kernels.dependencies]
 xeus-python = "*"
+ipyflow = "*"  # experimental
 
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
