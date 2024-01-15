@@ -21,7 +21,6 @@ einops = "*"
 # jupyter:
 jupyterlab = "^4"
 jupytext = "^1"
-xeus-python = "*"
 # jupyter-collaboration = "^1"  # disabled, need to mature
 # jupyter export:
 pandoc = "*"
@@ -47,6 +46,9 @@ phonenumbers = "*"
 # resolve issues:
 pyqt5-qt5 = "!=5.15.11,!=5.15.12"  # install issue with those versions
 # more:
+
+[tool.poetry.group.kernels.dependencies]
+xeus-python = "*"
 
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
