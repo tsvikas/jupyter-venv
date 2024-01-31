@@ -8,7 +8,7 @@ authors = ["Tsvika <tsvika@>"]
 python = "~3.11"
 # scientific stack:
 numpy = "^1"
-pandas = {extras = ["clipboard", "computation", "excel", "html", "output_formatting", "performance", "plot", "xml"], version = "^2"}
+pandas = {extras = ["clipboard", "computation", "excel", "html", "output_formatting", "plot", "xml"], version = "^2"}
 scipy = "^1"
 xarray = "*"
 statsmodels = "*"
@@ -28,7 +28,6 @@ pandoc = "*"
 matplotlib = "^3"
 hvplot = "*"
 seaborn = "*"
-datashader = "*"
 # interactive visualization:
 ipywidgets = "*"
 # tools:
@@ -48,7 +47,6 @@ pyqt5-qt5 = "!=5.15.11,!=5.15.12"  # install issue with those versions
 # more:
 
 [tool.poetry.group.kernels.dependencies]
-xeus-python = "*"
 ipyflow = "*"  # experimental
 
 [tool.poetry.group.lsp.dependencies]
