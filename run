@@ -1,1 +1,1 @@
-poetry -C ~/jupyter-venv run jupyter lab --notebook-dir ~
+poetry -C ~/jupyter-venv run jupyter lab --notebook-dir ~ --no-browser
