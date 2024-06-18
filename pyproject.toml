@@ -8,7 +8,7 @@ authors = ["Tsvika <tsvika@>"]
 [tool.poetry.dependencies]
 python = "~3.12"
 # scientific stack:
-numpy = "^1"
+numpy = "^2"
 pandas = {extras = ["clipboard", "computation", "excel", "html", "output_formatting", "plot", "xml"], version = "^2"}
 scipy = "^1"
 xarray = "*"
