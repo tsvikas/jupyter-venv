@@ -46,6 +46,7 @@ phonenumbers = "*"
 # resolve issues:
 pyqt5-qt5 = "!=5.15.11,!=5.15.12,!=5.15.13,!=5.15.14"  # install issue with those versions
 # more:
+jsonlines = "^4.0.0"
 
 [tool.poetry.group.kernels.dependencies]
 xeus-python = "*"
