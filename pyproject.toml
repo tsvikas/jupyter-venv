@@ -36,6 +36,7 @@ joblib = "*"
 icecream = "*"
 more-itertools = "*"
 tqdm = "*"
+jsonlines = "^4.0.0"
 # online:
 requests = "*"
 pooch = "*"
