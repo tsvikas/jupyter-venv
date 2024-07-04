@@ -22,6 +22,7 @@ einops = "*"
 # jupyter:
 jupyterlab = "^4"
 jupytext = "^1"
+jupyterlab-code-formatter = "^2.2.1"
 # jupyter-collaboration = "^1"  # disabled, need to mature
 # jupyter export:
 pandoc = "*"
