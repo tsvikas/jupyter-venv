@@ -22,6 +22,7 @@ einops = "*"
 # jupyter:
 jupyterlab = "^4"
 jupytext = "^1"
+jupyterlab-code-formatter = "^2.2.1"
 # jupyter-collaboration = "^1"  # disabled, need to mature
 # jupyter export:
 pandoc = "*"
@@ -36,6 +37,7 @@ joblib = "*"
 icecream = "*"
 more-itertools = "*"
 tqdm = "*"
+jsonlines = "^4.0.0"
 # online:
 requests = "*"
 pooch = "*"
@@ -46,7 +48,6 @@ phonenumbers = "*"
 # resolve issues:
 pyqt5-qt5 = "!=5.15.11,!=5.15.12,!=5.15.13,!=5.15.14"  # install issue with those versions
 # more:
-jsonlines = "^4.0.0"
 
 [tool.poetry.group.kernels.dependencies]
 xeus-python = "*"
