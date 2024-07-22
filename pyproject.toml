@@ -21,13 +21,13 @@ pyarrow = ">=13"
 einops = "*"
 # jupyter:
 jupyterlab = "^4"
-jupytext = "^1"
-jupyterlab-code-formatter = "^2.2.1"
+jupytext = "*"
+jupyterlab-code-formatter = "*"
 # jupyter-collaboration = "^1"  # disabled, need to mature
 # jupyter export:
 pandoc = "*"
 # visualization:
-matplotlib = "^3"
+matplotlib = "*"
 hvplot = "*"
 seaborn = "*"
 # interactive visualization:
@@ -37,7 +37,7 @@ joblib = "*"
 icecream = "*"
 more-itertools = "*"
 tqdm = "*"
-jsonlines = "^4.0.0"
+jsonlines = "*"
 # online:
 requests = "*"
 pooch = "*"
@@ -46,8 +46,8 @@ openai = "*"
 parsel = "*"
 phonenumbers = "*"
 # formatters
-isort = "^5.13.2"
-black = "^24.4.2"
+isort = "*"
+black = "*"
 # resolve issues:
 pyqt5-qt5 = "!=5.15.11,!=5.15.12,!=5.15.13,!=5.15.14"  # install issue with those versions
 # more:
