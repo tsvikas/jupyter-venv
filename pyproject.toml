@@ -32,6 +32,7 @@ hvplot = "*"
 seaborn = "*"
 # interactive visualization:
 ipywidgets = "*"
+plotly = "*"
 # tools:
 joblib = "*"
 icecream = "*"
