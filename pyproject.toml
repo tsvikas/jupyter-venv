@@ -21,7 +21,7 @@ pyarrow = ">=13"
 einops = "*"
 # jupyter:
 jupyterlab = "^4"
-jupytext = "*"
+# jupytext = "*"  # async error
 jupyterlab-code-formatter = "*"
 # jupyter-collaboration = "^1"  # disabled, need to mature
 # jupyter export:
