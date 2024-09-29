@@ -19,6 +19,7 @@ scikit-image = "*"
 scikit-learn = "*"
 pyarrow = ">=13"
 einops = "*"
+geopy = "^2.4.1"
 # jupyter:
 jupyterlab = "^4"
 # jupytext = "*"  # async error
