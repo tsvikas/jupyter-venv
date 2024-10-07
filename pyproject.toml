@@ -7,7 +7,7 @@ authors = ["Tsvika <tsvika@>"]
 
 [tool.poetry.dependencies]
 python = "~3.12"
-# scientific stack:
+## scientific stack:
 numpy = "^2"
 pandas = {extras = ["clipboard", "computation", "excel", "html", "output_formatting", "plot", "xml"], version = "^2"}
 scipy = "^1"
@@ -20,39 +20,39 @@ scikit-learn = "*"
 pyarrow = ">=13"
 einops = "*"
 geopy = "^2.4.1"
-# jupyter:
+## jupyter:
 jupyterlab = "^4"
 # jupytext = "*"  # async error
 jupyterlab-code-formatter = "*"
 # jupyter-collaboration = "^1"  # disabled, need to mature
-# jupyter export:
+## jupyter export:
 pandoc = "*"
-# visualization:
+## visualization:
 matplotlib = "*"
 hvplot = "*"
 seaborn = "*"
-# interactive visualization:
+## interactive visualization:
 ipywidgets = "*"
 plotly = "*"
-# tools:
+## tools:
 joblib = "*"
 icecream = "*"
 more-itertools = "*"
 tqdm = "*"
 jsonlines = "*"
-# online:
+## online:
 requests = "*"
 pooch = "*"
 openai = "*"
-# scraping:
+## scraping:
 parsel = "*"
 phonenumbers = "*"
-# formatters
+## formatters
 isort = "*"
 black = "*"
-# resolve issues:
+## resolve issues:
 pyqt5-qt5 = "!=5.15.11,!=5.15.12,!=5.15.13,!=5.15.14"  # install issue with those versions
-# more:
+## more:
 
 [tool.poetry.group.kernels.dependencies]
 xeus-python = "*"
