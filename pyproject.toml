@@ -35,6 +35,7 @@ hvplot = "*"
 seaborn = "*"
 ipywidgets = "*"
 plotly = "*"
+ipydatagrid = "*"
 ## tools:
 joblib = "*"
 icecream = "*"
