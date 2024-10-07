@@ -8,9 +8,9 @@ authors = ["Tsvika <tsvika@>"]
 [tool.poetry.dependencies]
 python = "~3.12"
 ## scientific stack:
-numpy = "^2"
+numpy = ">=2"
 pandas = {extras = ["clipboard", "computation", "excel", "html", "output_formatting", "plot", "xml"], version = "^2"}
-scipy = "^1"
+scipy = ">=1"
 xarray = "*"
 statsmodels = "*"
 networkx = "*"
@@ -19,7 +19,7 @@ scikit-image = "*"
 scikit-learn = "*"
 pyarrow = ">=13"
 einops = "*"
-geopy = "^2.4.1"
+geopy = "*"
 ## jupyter:
 jupyterlab = "^4"
 # jupytext = "*"  # async error
