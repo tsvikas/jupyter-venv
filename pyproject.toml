@@ -47,6 +47,7 @@ requests = "*"
 pooch = "*"
 parsel = "*"
 phonenumbers = "*"
+yfinance = "*"
 ## more:
 
 [tool.poetry.group.kernels.dependencies]
