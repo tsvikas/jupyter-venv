@@ -22,16 +22,17 @@ einops = "*"
 geopy = "*"
 ## jupyter:
 jupyterlab = "^4"
-# jupytext = "*"  # async error
+pandoc = "*"  # to export
 jupyterlab-code-formatter = "*"
-# jupyter-collaboration = "^1"  # disabled, need to mature
-## jupyter export:
-pandoc = "*"
-## visualization:
+# jupytext = "*"  # async error
+# jupyter-collaboration = "*"  # too much logs
+## formatters
+isort = "*"
+black = "*"
+## visualization / interactive:
 matplotlib = "*"
 hvplot = "*"
 seaborn = "*"
-## interactive visualization:
 ipywidgets = "*"
 plotly = "*"
 ## tools:
@@ -40,16 +41,11 @@ icecream = "*"
 more-itertools = "*"
 tqdm = "*"
 jsonlines = "*"
-## online:
+## online/scraping:
 requests = "*"
 pooch = "*"
-openai = "*"
-## scraping:
 parsel = "*"
 phonenumbers = "*"
-## formatters
-isort = "*"
-black = "*"
 ## more:
 
 [tool.poetry.group.kernels.dependencies]
@@ -59,7 +55,7 @@ ipyflow = "*"  # experimental
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
 python-lsp-server = "*"
-# outdated:
+## outdated:
 # python-language-server = "*"
 
 [build-system]
