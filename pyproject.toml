@@ -51,7 +51,6 @@ yfinance = "*"
 ## more:
 
 [tool.poetry.group.kernels.dependencies]
-xeus-python = "*"
 ipyflow = "*"  # experimental
 
 [tool.poetry.group.lsp.dependencies]
