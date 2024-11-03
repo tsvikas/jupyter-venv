@@ -6,7 +6,7 @@ description = ""
 authors = ["Tsvika <tsvika@>"]
 
 [tool.poetry.dependencies]
-python = "~3.12"
+python = ">=3.13"
 ## scientific stack:
 numpy = ">=2"
 pandas = {extras = ["clipboard", "computation", "excel", "html", "output_formatting", "plot", "xml"], version = "^2"}
