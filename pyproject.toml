@@ -50,9 +50,6 @@ phonenumbers = "*"
 yfinance = "*"
 ## more:
 
-[tool.poetry.group.kernels.dependencies]
-ipyflow = "*"  # experimental
-
 [tool.poetry.group.lsp.dependencies]
 pyright = "*"
 python-lsp-server = "*"
