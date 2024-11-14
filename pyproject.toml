@@ -15,7 +15,7 @@ xarray = "*"
 statsmodels = "*"
 networkx = "*"
 pillow = "*"
-scikit-image = "*"
+scikit-image = {version = "^0.25.0rc1", allow-prereleases = true}  # needed for python3.13, remove later
 scikit-learn = "*"
 pyarrow = ">=13"
 einops = "*"
