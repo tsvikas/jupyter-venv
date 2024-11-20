@@ -1,61 +1,66 @@
-[tool.poetry]
-package-mode = false
+[project]
 name = "jupyter-venv"
 version = "0.1.0"
+authors = [
+    {name = "Tsvika", email = "tsvika@"},
+]
 description = ""
-authors = ["Tsvika <tsvika@>"]
+package-mode = false
+requires-python = ">=3.13"
+dependencies = [
+    ## scientific stack:
+    "numpy>=2",
+    "pandas[clipboard,computation,excel,html,output_formatting,plot,xml]<3,>=2",
+    "scipy>=1",
+    "xarray",
+    "statsmodels",
+    "networkx",
+    "pillow",
+    "scikit-image<1.0.0,>=0.25.0rc1",  # needed for python3.13, remove later
+    "scikit-learn",
+    "pyarrow>=13",
+    "einops",
+    "geopy",
+    ## jupyter:
+    "jupyterlab<5,>=4",
+    "pandoc",
+    "jupyterlab-code-formatter",
+    # "jupytext",  # async error
+    # "jupyter-collaboration",  # too much logs
+    ## formatters
+    "isort",
+    "black",
+    ## visualization / interactive:
+    "matplotlib",
+    "hvplot",
+    "seaborn",
+    "ipywidgets",
+    "plotly",
+    "ipydatagrid",
+    ## tools:
+    "joblib",
+    "icecream",
+    "more-itertools",
+    "tqdm",
+    "jsonlines",
+    ## online/scraping:
+    "requests",
+    "pooch",
+    "parsel",
+    "phonenumbers",
+    "yfinance",
+    ## more:
+]
 
-[tool.poetry.dependencies]
-python = ">=3.13"
-## scientific stack:
-numpy = ">=2"
-pandas = {extras = ["clipboard", "computation", "excel", "html", "output_formatting", "plot", "xml"], version = "^2"}
-scipy = ">=1"
-xarray = "*"
-statsmodels = "*"
-networkx = "*"
-pillow = "*"
-scikit-image = {version = "^0.25.0rc1", allow-prereleases = true}  # needed for python3.13, remove later
-scikit-learn = "*"
-pyarrow = ">=13"
-einops = "*"
-geopy = "*"
-## jupyter:
-jupyterlab = "^4"
-pandoc = "*"  # to export
-jupyterlab-code-formatter = "*"
-# jupytext = "*"  # async error
-# jupyter-collaboration = "*"  # too much logs
-## formatters
-isort = "*"
-black = "*"
-## visualization / interactive:
-matplotlib = "*"
-hvplot = "*"
-seaborn = "*"
-ipywidgets = "*"
-plotly = "*"
-ipydatagrid = "*"
-## tools:
-joblib = "*"
-icecream = "*"
-more-itertools = "*"
-tqdm = "*"
-jsonlines = "*"
-## online/scraping:
-requests = "*"
-pooch = "*"
-parsel = "*"
-phonenumbers = "*"
-yfinance = "*"
-## more:
 
-[tool.poetry.group.lsp.dependencies]
-pyright = "*"
-python-lsp-server = "*"
-## outdated:
-# python-language-server = "*"
+[dependency-groups]
+dev = []
+lsp = [
+    "pyright",
+    "python-lsp-server",
+    # "python-language-server",  # outdated
+]
 
-[build-system]
-requires = ["poetry-core"]
-build-backend = "poetry.core.masonry.api"
+
+[tool.uv]
+default-groups = ["dev", "lsp"]

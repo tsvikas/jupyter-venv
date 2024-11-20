@@ -12,12 +12,13 @@ if test -n "$(git status --porcelain)"
     exit 2
 end
 
-poetry update
+uv lock --upgrade
+and uv sync
 or begin
     popd
     exit 3
 end
 
-git commit -a -m "poetry update"
-poetry show --outdated
+git commit -a -m "uv upgrade"
+uv pip list --outdated
 popd
