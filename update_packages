@@ -12,8 +12,7 @@ if test -n "$(git status --porcelain)"
     exit 2
 end
 
-uv lock --upgrade
-and uv sync
+uv sync --upgrade
 or begin
     popd
     exit 3
