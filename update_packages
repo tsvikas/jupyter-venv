@@ -1,11 +1,23 @@
 #!/usr/bin/fish
+pushd ~/jupyter-venv
+
 if not git_is_repo
+    popd
     exit 1
 end
+
 if test -n "$(git status --porcelain)"
     echo "Working directory is not clean. Please commit or discard changes."
+    popd
     exit 2
 end
-poetry update; or exit 3
+
+poetry update
+or begin
+    popd
+    exit 3
+end
+
 git commit -a -m "poetry update"
 poetry show --outdated
+popd
