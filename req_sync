@@ -1,6 +1,0 @@
-#!/usr/bin/fish
-set JUPYTER_DIR "$HOME/jupyter-venv"
-uv --directory $JUPYTER_DIR export > $JUPYTER_DIR/requirements.txt
-and $JUPYTER_DIR/.venv/bin/pip install --upgrade pip
-and echo "Installing from requirements:"
-and $JUPYTER_DIR/.venv/bin/pip install -r $JUPYTER_DIR/requirements.txt | grep -v "Requirement already satisfied:"
