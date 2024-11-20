@@ -19,6 +19,9 @@ or begin
     exit 3
 end
 
-git commit -a -m "uv upgrade"
+if test -n "$(git status --porcelain)"
+    git commit -a -m "uv upgrade"
+end
+
 uv pip list --outdated
 popd
