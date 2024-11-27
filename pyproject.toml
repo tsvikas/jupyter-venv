@@ -16,7 +16,7 @@ dependencies = [
     "statsmodels",
     "networkx",
     "pillow",
-    "scikit-image<1.0.0,>=0.25.0rc1",  # needed for python3.13, remove later
+    "scikit-image",
     "scikit-learn",
     "pyarrow>=13",
     "einops",
