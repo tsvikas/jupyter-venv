@@ -45,6 +45,7 @@ dependencies = [
     "jsonlines",
     ## online/scraping:
     "requests",
+    "openai",
     "pooch",
     "parsel",
     "phonenumbers",
