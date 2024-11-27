@@ -41,6 +41,7 @@ dependencies = [
     "joblib",
     "icecream",
     "more-itertools",
+    "python-dotenv",
     "tqdm",
     "jsonlines",
     ## online/scraping:
