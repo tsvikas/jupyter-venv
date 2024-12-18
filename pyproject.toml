@@ -25,7 +25,7 @@ dependencies = [
     "jupyterlab<5,>=4",
     "pandoc",
     "jupyterlab-code-formatter",
-    # "jupytext",  # async error
+    "jupytext",
     # "jupyter-collaboration",  # too much logs
     ## formatters
     "isort",
