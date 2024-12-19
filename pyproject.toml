@@ -35,6 +35,7 @@ dependencies = [
     "matplotlib",
     "hvplot",
     "seaborn",
+    "altair[all]",
     "great-tables",
     "ipywidgets",
     "plotly",
