@@ -35,6 +35,7 @@ dependencies = [
     "matplotlib",
     "hvplot",
     "seaborn",
+    "great-tables",
     "ipywidgets",
     "plotly",
     "ipydatagrid",
