@@ -51,6 +51,7 @@ dependencies = [
     "parsel",
     "phonenumbers",
     "yfinance",
+    "yfinance-cache",
     ## more:
 ]
 
