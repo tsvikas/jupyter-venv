@@ -9,18 +9,18 @@ package-mode = false
 requires-python = ">=3.13"
 dependencies = [
     ## scientific stack:
-    "numpy>=2",
-    "pandas[clipboard,computation,excel,html,output_formatting,plot,xml]<3,>=2",
-    "scipy>=1",
-    "xarray",
-    "statsmodels",
-    "networkx",
-    "pillow",
-    "scikit-image",
-    "scikit-learn",
-    "pyarrow>=13",
     "einops",
     "geopy",
+    "networkx",
+    "numpy>=2",
+    "pandas[clipboard,computation,excel,html,output_formatting,plot,xml]<3,>=2",
+    "pillow",
+    "pyarrow>=13",
+    "scikit-image",
+    "scikit-learn",
+    "scipy>=1",
+    "statsmodels",
+    "xarray",
     ## jupyter:
     "jupyterlab<5,>=4",
     "pandoc",
