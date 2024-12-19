@@ -15,6 +15,7 @@ dependencies = [
     "numpy>=2",
     "pandas[clipboard,computation,excel,html,output_formatting,plot,xml]<3,>=2",
     "pillow",
+    "polars[async,cloudpickle,excel,graph,numpy,pandas,plot,pyarrow,pydantic,style,timezone]",
     "pyarrow>=13",
     "scikit-image",
     "scikit-learn",
