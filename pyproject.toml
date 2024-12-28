@@ -23,6 +23,7 @@ dependencies = [
     "statsmodels",
     "xarray",
     ## jupyter:
+    "ipython",
     "jupyterlab<5,>=4",
     "pandoc",
     "jupyterlab-code-formatter",
