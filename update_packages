@@ -22,5 +22,6 @@ if test -n "$(git status --porcelain)"
     git commit -a -m "uv upgrade"
 end
 
+echo "\noutdated packages:"
 uv pip list --outdated
 popd
