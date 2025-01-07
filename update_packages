@@ -22,6 +22,9 @@ if test -n "$(git status --porcelain)"
     git commit -a -m "uv upgrade"
 end
 
+# echo "\nall outdated packages:"
+# uv pip list --outdated
+
 echo "\noutdated packages:"
-uv pip list --outdated
+uv tree --outdated --depth 1 --color always -q | not grep latest --color=never
 popd
