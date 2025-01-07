@@ -3,19 +3,19 @@ pushd ~/jupyter-venv
 
 if not git_is_repo
     popd
-    exit 1
+    exit 10
 end
 
 if test -n "$(git status --porcelain)"
     echo "Working directory is not clean. Please commit or discard changes."
     popd
-    exit 2
+    exit 11
 end
 
 uv sync --upgrade
 or begin
     popd
-    exit 3
+    exit 12
 end
 
 if test -n "$(git status --porcelain)"
@@ -26,5 +26,19 @@ end
 # uv pip list --outdated
 
 echo "\noutdated packages:"
-uv tree --outdated --depth 1 --color always -q | not grep latest --color=never
+
+set -l tree (uv tree --outdated --depth 1 --color always -q)
+or begin
+    popd
+    exit 13
+end
+
+echo $tree | grep latest --color=never
+and begin
+    # found updates
+    popd
+    exit 1
+end
+
 popd
+exit 0
