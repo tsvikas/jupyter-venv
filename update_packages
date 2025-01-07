@@ -22,10 +22,12 @@ if test -n "$(git status --porcelain)"
     git commit -a -m "uv upgrade"
 end
 
-# echo "\nall outdated packages:"
+# echo
+# echo "all outdated packages:"
 # uv pip list --outdated
 
-echo "\noutdated packages:"
+echo
+echo "outdated packages:"
 
 set -l tree (uv tree --outdated --depth 1 --color always -q)
 or begin
