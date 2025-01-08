@@ -49,6 +49,7 @@ dependencies = [
     "python-dotenv",
     "tqdm",
     "jsonlines",
+    "rich",
     ## online/scraping:
     "requests",
     "openai",
