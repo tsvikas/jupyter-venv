@@ -48,6 +48,7 @@ dependencies = [
     "more-itertools",
     "python-dotenv",
     "tqdm",
+    "hepstats",
     "jsonlines",
     "rich",
     ## online/scraping:
