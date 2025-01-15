@@ -1,3 +1,4 @@
 requirements.txt
 .venv
 .jupyter_ystore.db
+uv.lock

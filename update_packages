@@ -1,31 +1,11 @@
 #!/usr/bin/fish
 pushd ~/jupyter-venv
 
-if not git_is_repo
-    popd
-    exit 10
-end
-
-if test -n "$(git status --porcelain)"
-    echo "Working directory is not clean. Please commit or discard changes."
-    popd
-    exit 11
-end
-
 uv sync --upgrade
 or begin
     popd
     exit 12
 end
-
-if test -n "$(git status --porcelain)"
-    git commit -a -m "uv upgrade"
-    and git push
-end
-
-# echo
-# echo "all outdated packages:"
-# uv pip list --outdated
 
 echo
 echo "outdated packages:"
