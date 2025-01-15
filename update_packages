@@ -20,6 +20,7 @@ end
 
 if test -n "$(git status --porcelain)"
     git commit -a -m "uv upgrade"
+    and git push
 end
 
 # echo
