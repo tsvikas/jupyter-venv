@@ -1,6 +1,7 @@
 #!/usr/bin/fish
 pushd ~/jupyter-venv
 
+# update packages
 uv sync --upgrade
 or begin
     popd
@@ -10,18 +11,20 @@ end
 echo
 echo "outdated packages:"
 
+# check for outdated
 set -l tree (uv tree --outdated --depth 1 --color always -q)
 or begin
     popd
     exit 13
 end
 
+# show outdated and return 1
 echo $tree | grep latest --color=never
 and begin
-    # found updates
     popd
     exit 1
 end
 
+# return 0 if no outdated found
 popd
 exit 0
