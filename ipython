@@ -1,0 +1,2 @@
+#!/usr/bin/fish
+uv run --directory (status dirname) ipython
