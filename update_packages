@@ -11,7 +11,7 @@ or exit 13
 
 for line in $tree
   if test -n "$(string match '*latest*' $line)"
-    set -a outdated $line
+    set -a outdated (string split --fields 2 --max 1 ' ' "$line")
   end
 end
 
