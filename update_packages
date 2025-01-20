@@ -5,14 +5,20 @@ cd (status dirname)
 uv sync --upgrade
 or exit 12
 
-echo
-echo "outdated packages:"
-
 # check for outdated
 set -l tree (uv tree --outdated --depth 1 --color always -q)
 or exit 13
 
+for line in $tree
+  if test -n "$(string match '*latest*' $line)"
+    set -a outdated $line
+  end
+end
+
 # show outdated and return
-echo -e (string join '\n' $tree) | grep latest --color=never
-and exit 1
-or exit 0
+if test -n "$outdated"
+  echo
+  echo "outdated packages:"
+  echo -e (string join '\n' $outdated)
+  exit 1
+end
