@@ -13,7 +13,7 @@ dependencies = [
     "geopy",
     "networkx",
     "numpy",
-    "pandas[clipboard,computation,excel,html,output_formatting,plot,xml]",
+    "pandas[clipboard,computation,excel,html,output-formatting,plot,xml]",
     "pillow",
     "polars[async,cloudpickle,excel,graph,numpy,pandas,plot,pyarrow,pydantic,style,timezone]",
     "pyarrow",
