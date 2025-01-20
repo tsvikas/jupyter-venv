@@ -1,11 +1,6 @@
 [project]
 name = "jupyter-venv"
 version = "0.1.0"
-authors = [
-    {name = "Tsvika", email = "tsvika@"},
-]
-description = ""
-package-mode = false
 requires-python = ">=3.13"
 dependencies = [
     ## scientific stack:
