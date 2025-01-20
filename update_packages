@@ -13,6 +13,6 @@ set -l tree (uv tree --outdated --depth 1 --color always -q)
 or exit 13
 
 # show outdated and return
-echo $tree | grep latest --color=never
+echo -e (string join '\n' $tree) | grep latest --color=never
 and exit 1
 or exit 0
