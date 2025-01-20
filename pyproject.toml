@@ -22,16 +22,6 @@ dependencies = [
     "scipy",
     "statsmodels",
     "xarray",
-    ## jupyter:
-    "ipython",
-    "jupyterlab~=4.0",
-    "pandoc",
-    "jupyterlab-code-formatter",
-    "jupytext",
-    # "jupyter-collaboration",  # too much logs
-    ## formatters
-    "isort",
-    "black",
     ## visualization / interactive:
     "matplotlib",
     "hist[fit,plot]",
@@ -59,12 +49,24 @@ dependencies = [
     "phonenumbers",
     "yfinance",
     "yfinance-cache",
-    ## more:
+    ## unsorted:
 ]
 
 
 [dependency-groups]
 dev = []
+jupyter = [
+    "ipython",
+    "jupyterlab~=4.0",
+    "pandoc",
+    "jupyterlab-code-formatter",
+    "jupytext",
+    # "jupyter-collaboration",  # too much logs
+]
+formatters = [
+    "isort",
+    "black",
+]
 lsp = [
     "pyright",
     "python-lsp-server",
@@ -73,4 +75,4 @@ lsp = [
 
 
 [tool.uv]
-default-groups = ["dev", "lsp"]
+default-groups = ["dev", "jupyter", "formatters", "lsp"]
