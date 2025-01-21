@@ -20,5 +20,5 @@ if test -n "$outdated"
   echo
   echo "outdated packages:"
   echo -e (string join '\n' $outdated)
-  exit 1
+  # exit 1
 end
