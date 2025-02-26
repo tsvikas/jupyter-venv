@@ -29,13 +29,13 @@ dependencies = [
     "ipydatagrid",
     ## tools:
     "joblib",
-    "icecream",
     "more-itertools",
     "python-dotenv",
     "tqdm",
     "hepstats",
     "jsonlines",
     "rich",
+    "psutil",
     ## online/scraping:
     "requests",
     "openai",
@@ -44,6 +44,10 @@ dependencies = [
     "phonenumbers",
     "yfinance",
     "yfinance-cache",
+    ## debug /  profiling
+    "icecream",
+    "pysnooper",
+    "scalene",
     ## unsorted:
 ]
 
