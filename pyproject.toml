@@ -6,6 +6,7 @@ dependencies = [
     ## scientific stack:
     "einops",
     "geopy",
+    "hepstats",
     "networkx",
     "numpy",
     "pandas[clipboard,computation,excel,html,output-formatting,performance,plot,xml]",
@@ -32,7 +33,6 @@ dependencies = [
     "more-itertools",
     "python-dotenv",
     "tqdm",
-    "hepstats",
     "jsonlines",
     "rich",
     "psutil",
