@@ -48,6 +48,7 @@ dependencies = [
     "pysnooper",
     "scalene",
     ## unsorted:
+    "gitpython>=3.1.44",
 ]
 
 
