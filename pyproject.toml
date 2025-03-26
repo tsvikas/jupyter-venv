@@ -49,6 +49,7 @@ dependencies = [
     "scalene",
     ## unsorted:
     "gitpython>=3.1.44",
+    "euporie>=2.8.8",
 ]
 
 
