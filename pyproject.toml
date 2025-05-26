@@ -28,9 +28,11 @@ dependencies = [
     "plotly",
     "seaborn",
     ## tools:
+    "gitpython",
     "joblib",
     "jsonlines",
     "more-itertools",
+    "pendulum",
     "psutil",
     "python-dotenv",
     "rich",
@@ -48,9 +50,6 @@ dependencies = [
     "pysnooper",
     "scalene",
     ## unsorted:
-    "gitpython>=3.1.44",
-    "euporie>=2.8.8",
-    "pendulum>=3.1.0",
 ]
 
 
@@ -63,6 +62,7 @@ jupyter = [
     "jupyterlab-code-formatter",
     "jupytext",
     # "jupyter-collaboration",  # too much logs
+    "euporie",
 ]
 formatters = [
     "isort",
