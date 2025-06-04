@@ -63,6 +63,7 @@ jupyter = [
     "jupytext",
     # "jupyter-collaboration",  # too much logs
     "euporie",
+    "nbconvert[webpdf]",
 ]
 formatters = [
     "isort",
