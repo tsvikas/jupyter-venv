@@ -49,6 +49,8 @@ dependencies = [
     "icecream",
     "pysnooper",
     "scalene",
+    ## misc
+    "suntime>=1.3.2",
     ## unsorted:
 ]
 
