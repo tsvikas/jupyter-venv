@@ -7,6 +7,7 @@ dependencies = [
     "einops",
     "geopy",
     "hepstats",
+    "ibis-framework[duckdb,polars]>=10.6.0",
     "networkx",
     "numpy",
     "pandas[clipboard,computation,compression,consortium-standard,excel,feather,html,output-formatting,parquet,performance,plot,xml]",
