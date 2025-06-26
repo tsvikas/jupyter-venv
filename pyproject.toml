@@ -53,6 +53,7 @@ dependencies = [
     ## misc
     "astral",
     ## unsorted:
+    "langchain[anthropic,google-genai,openai]>=0.3.26",
 ]
 
 
