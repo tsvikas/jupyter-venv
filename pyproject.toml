@@ -20,6 +20,7 @@ dependencies = [
     "xarray",
     ## visualization / interactive:
     "altair[all]",
+    "datashader",
     "great-tables",
     "hist[fit,plot]",
     "hvplot",
@@ -39,6 +40,7 @@ dependencies = [
     "rich",
     "tqdm",
     ## online / scraping:
+    "langchain[anthropic,google-genai,openai]",
     "openai",
     "parsel",
     "phonenumbers",
@@ -53,8 +55,6 @@ dependencies = [
     ## misc
     "astral",
     ## unsorted:
-    "langchain[anthropic,google-genai,openai]>=0.3.26",
-    "datashader>=0.18.1",
 ]
 
 
