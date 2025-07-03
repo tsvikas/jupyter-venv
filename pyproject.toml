@@ -54,6 +54,7 @@ dependencies = [
     "astral",
     ## unsorted:
     "langchain[anthropic,google-genai,openai]>=0.3.26",
+    "datashader>=0.18.1",
 ]
 
 
