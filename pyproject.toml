@@ -58,6 +58,7 @@ dependencies = [
     ## unsorted:
     "sympy>=1.14.0",
     "tomli-w>=1.2.0",
+    "ipympl>=0.9.7",
 ]
 
 
