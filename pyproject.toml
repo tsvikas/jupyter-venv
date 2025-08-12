@@ -18,6 +18,7 @@ dependencies = [
     "scikit-learn",
     "scipy",
     "statsmodels",
+    "sympy",
     "xarray",
     ## visualization / interactive:
     "altair[all]",
@@ -26,6 +27,7 @@ dependencies = [
     "hist[fit,plot]",
     "hvplot",
     "ipydatagrid",
+    "ipympl",
     "ipywidgets",
     "matplotlib",
     "plotly",
@@ -39,6 +41,7 @@ dependencies = [
     "psutil",
     "python-dotenv",
     "rich",
+    "tomli-w",
     "tqdm",
     ## online / scraping:
     "langchain[anthropic,google-genai,openai]",
@@ -56,9 +59,6 @@ dependencies = [
     ## misc
     "astral",
     ## unsorted:
-    "sympy>=1.14.0",
-    "tomli-w>=1.2.0",
-    "ipympl>=0.9.7",
 ]
 
 
