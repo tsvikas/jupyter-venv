@@ -7,7 +7,7 @@ dependencies = [
     "einops",
     "geopy",
     "hepstats",
-    "ibis-framework[duckdb,polars]>=10.6.0",
+    "ibis-framework[duckdb,polars]",
     "networkx",
     "numba>=0.61",
     "numpy",
