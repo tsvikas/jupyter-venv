@@ -1,2 +1,2 @@
 #!/usr/bin/fish
-uv run --directory (status dirname) jupyter lab --notebook-dir ~/code/notebooks --no-browser
+uv run --exact --directory (status dirname) jupyter lab --notebook-dir ~/code/notebooks --no-browser
