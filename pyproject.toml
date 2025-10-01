@@ -33,6 +33,7 @@ dependencies = [
     "plotly",
     "seaborn",
     ## tools:
+    "astral",
     "gitpython",
     "joblib",
     "jsonlines",
@@ -56,8 +57,6 @@ dependencies = [
     "icecream",
     "pysnooper",
     "scalene",
-    ## misc
-    "astral",
     ## unsorted:
 ]
 
@@ -65,15 +64,15 @@ dependencies = [
 [dependency-groups]
 dev = []
 jupyter = [
-    "ipython",
-    "jupyterlab~=4.0",
-    "pandoc",
-    "jupyterlab-code-formatter",
-    "jupytext",
-    # "jupyter-collaboration",  # too much logs
     "euporie",
-    "nbconvert[webpdf]",
+    "ipython",
+    # "jupyter-collaboration",  # too much logs
+    "jupyterlab~=4.0",
+    "jupyterlab-code-formatter",
     "jupyterlab-myst",
+    "jupytext",
+    "nbconvert[webpdf]",
+    "pandoc",
 ]
 formatters = [
     "isort",
