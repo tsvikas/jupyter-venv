@@ -70,6 +70,9 @@ jupyter = [
     # "jupyter-collaboration",  # too much logs
     "jupyterlab~=4.0",
     "jupyterlab-code-formatter",
+    "jupyterlab-git",
+    "jupyterlab-github",
+    # "jupyterlab-latex",  # not used
     "jupyterlab-myst",
     "jupytext",
     "nbconvert[webpdf]",
