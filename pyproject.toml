@@ -73,6 +73,7 @@ jupyter = [
     # "jupyter-collaboration",  # too much logs
     "euporie",
     "nbconvert[webpdf]",
+    "jupyterlab-myst",
 ]
 formatters = [
     "isort",
