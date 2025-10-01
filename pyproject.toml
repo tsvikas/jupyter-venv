@@ -66,6 +66,7 @@ dev = []
 jupyter = [
     "euporie",
     "ipython",
+    "jupyter-ai[all]",
     # "jupyter-collaboration",  # too much logs
     "jupyterlab~=4.0",
     "jupyterlab-code-formatter",
