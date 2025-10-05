@@ -27,7 +27,6 @@ dependencies = [
     "hist[fit,plot]",
     "hvplot",
     "ipydatagrid",
-    "ipympl",
     "ipywidgets",
     "matplotlib",
     "plotly",
@@ -63,9 +62,12 @@ dependencies = [
 
 [dependency-groups]
 dev = []
-jupyter = [
+terminal = [
     "euporie",
     "ipython",
+]
+jupyter = [
+    "ipympl",
     # "jupyter-ai[all]",  # errors
     # "jupyter-collaboration",  # too much logs
     "jupyterlab~=4.0",
@@ -90,4 +92,4 @@ lsp = [
 
 
 [tool.uv]
-default-groups = ["dev", "jupyter", "formatters", "lsp"]
+default-groups = ["dev", "terminal", "jupyter", "formatters", "lsp"]
