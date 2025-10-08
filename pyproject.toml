@@ -21,7 +21,6 @@ dependencies = [
     "sympy",
     "xarray",
     ## visualization / interactive:
-    "altair[all]",
     "datashader",
     "great-tables",
     "hist[fit,plot]",
