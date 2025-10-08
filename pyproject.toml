@@ -9,7 +9,6 @@ dependencies = [
     "hepstats",
     "ibis-framework[duckdb,polars]",
     "networkx",
-    "numba>=0.61",
     "numpy",
     "pandas[clipboard,computation,compression,consortium-standard,excel,feather,html,output-formatting,parquet,performance,plot,xml]>=2.1",
     "pillow",
