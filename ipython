@@ -1,2 +1,2 @@
 #!/usr/bin/fish
-uv run --directory (status dirname) ipython --ipython-dir ipython_dir/
+uv run --exact --directory (status dirname) -- ipython --ipython-dir ipython_dir/
