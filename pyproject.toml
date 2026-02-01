@@ -11,7 +11,7 @@ dependencies = [
     "ibis-framework",
     "networkx",
     "numpy",
-    "pandas[clipboard,computation,compression,consortium-standard,excel,html,output-formatting,performance,plot,xml]>=2.1",
+    "pandas[clipboard,computation,compression,excel,html,output-formatting,performance,plot,xml]>=3",
     "pillow",
     "polars[async,cloudpickle,excel,graph,numpy,plot,pydantic,style,timezone]",
     "pyarrow",  # an extra for pandas/polars; separate entry to ease transiotion to new python versions.
