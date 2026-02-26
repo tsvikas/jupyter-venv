@@ -1,2 +1,6 @@
 #!/usr/bin/env fish
-uv run --exact --directory (status dirname) -- jupyter lab --notebook-dir ~/code/notebooks --no-browser
+uv run --exact --directory (status dirname) -- \
+  jupyter lab \
+  --notebook-dir ~/code/notebooks \
+  --no-browser \
+  $argv
