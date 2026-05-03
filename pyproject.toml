@@ -51,7 +51,6 @@ dependencies = [
     "pooch",
     "requests",
     "yfinance",
-    "yfinance-cache",
     ## debug /  profiling
     "icecream",
     "pysnooper",
