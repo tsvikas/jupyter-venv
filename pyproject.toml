@@ -56,8 +56,10 @@ dependencies = [
     "pysnooper",
     "scalene",
     ## ml:
+    "safetensors",
     "torch",
     "torchvision",
+    "treescope",
     ## unsorted:
 ]
 
