@@ -2,7 +2,11 @@
 cd (status dirname)
 
 # update packages
-uv sync --upgrade
+# The uv-managed CPython (python-build-standalone) records CC=gcc-13 in its
+# sysconfig, so setuptools tries to invoke gcc-13 when building C extensions
+# (e.g. multimark, pulled in by great-tables). gcc-13 isn't installed here,
+# only gcc, so override CC/CXX to the available compiler.
+CC=gcc CXX=g++ uv sync --upgrade
 or exit 12
 
 # check for outdated
