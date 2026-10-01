@@ -82,6 +82,7 @@ jupyter = [
     "jupyterlab-myst",
     "jupytext",
     "nbconvert[webpdf]",
+    "nodpy",
     "pandoc",
 ]
 formatters = [
